@@ -1836,11 +1836,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mhmmd\\Documents\\OCBC NISP\\BootCamp\\Sesi_14\\PaymentApp\\PaymentApp.csproj",
+      "projectUniqueName": "C:\\Users\\mhmmd\\Documents\\OCBC NISP\\BootCamp\\Sesi_14\\Final_Project\\PaymentApp\\PaymentApp.csproj",
       "projectName": "PaymentApp",
-      "projectPath": "C:\\Users\\mhmmd\\Documents\\OCBC NISP\\BootCamp\\Sesi_14\\PaymentApp\\PaymentApp.csproj",
+      "projectPath": "C:\\Users\\mhmmd\\Documents\\OCBC NISP\\BootCamp\\Sesi_14\\Final_Project\\PaymentApp\\PaymentApp.csproj",
       "packagesPath": "C:\\Users\\mhmmd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mhmmd\\Documents\\OCBC NISP\\BootCamp\\Sesi_14\\PaymentApp\\obj\\",
+      "outputPath": "C:\\Users\\mhmmd\\Documents\\OCBC NISP\\BootCamp\\Sesi_14\\Final_Project\\PaymentApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mhmmd\\AppData\\Roaming\\NuGet\\NuGet.Config",

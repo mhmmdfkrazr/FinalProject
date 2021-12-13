@@ -55,7 +55,7 @@ namespace PaymentApp
                     BearerFormat = "JWT",
                     In = ParameterLocation.Header,
                     Description =
-                        "Enter 'Bearer' [space] and then your valid token in the text input below.\r\n\r\nExample: \"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\""
+                        "Enter 'Bearer' [space] and then your valid token in the text input below."
                 });
 
                 c.AddSecurityRequirement(new OpenApiSecurityRequirement
@@ -122,6 +122,11 @@ namespace PaymentApp
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors(x => x
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader());
 
             app.UseAuthorization();
 
